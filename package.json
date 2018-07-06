@@ -1,10 +1,10 @@
 {
   "name": "reactapphw",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
@@ -13,11 +13,23 @@
     "bluebird": "^3.5.1",
     "body-parser": "^1.18.3",
     "express": "^4.16.3",
-    "mongoose": "^5.1.6",
+    "mongodb": "^3.1.1",
+    "mongoose": "^5.2.1",
     "nightmare": "^3.0.1",
+    "nyt": "^0.1.0",
     "react": "^16.4.1",
     "react-dom": "^16.4.1",
     "react-router-dom": "^4.3.1",
     "react-scripts": "^1.1.4"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DaynaMarie07/reactApp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DaynaMarie07/reactApp/issues"
+  },
+  "homepage": "https://github.com/DaynaMarie07/reactApp#readme",
+  "description": ""
 }
